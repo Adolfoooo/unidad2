@@ -1,0 +1,43 @@
+[
+    {
+        "nombre":"Modal",
+        "icon":"albums",
+        "url":"/modal"
+
+    },
+    {
+        "nombre":"Cuadricula",
+        "icon":"apps",
+        "url":"/grid"
+
+    },
+    {
+        "nombre":"Inifinite scroll",
+        "icon":"infinite",
+        "url":"/infinite"
+
+    },
+    {
+        "nombre":"Loading",
+        "icon":"sync",
+        "url":"/loadin"
+
+    },{
+        "nombre":"Inputs",
+        "icon":"chatboxes",
+        "url":"/input"
+
+    },
+    {
+        "nombre":"Everything",
+        "icon":"chatboxes",
+        "url":"/everything"
+
+    },
+    {
+        "nombre":"Sources",
+        "icon":"chatboxes",
+        "url":"/sources"
+
+    }
+]

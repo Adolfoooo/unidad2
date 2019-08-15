@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-button (click)="toggleMenu()">
+        <ion-icon slot="icon-only" name="menu">
+
+        </ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title>Noticias</ion-title>
+  </ion-toolbar>
+</ion-header>
+<app-menu></app-menu>
+<ion-content><ion-list>
+    <ion-item [routerLink]="c.url"*ngFor="let c of componentes">
+      <ion-label>
+        <ion-icon color="secondary" [name]="c.icono"></ion-icon>
+        {{c.nombre}}
+      </ion-label>
+    </ion-item>
+  </ion-list>
+  <ion-card>
+    <img src="assets/mex.jpg" width="20%" height="20%">
+  </ion-card>
+
+        <ion-button [routerLink]="['/everything']" routerLinkActive="router-link-active">Ever</ion-button> 
+        <ion-button [routerLink]="['/source']" routerLinkActive="router-link-active">Source</ion-button> 
+        <ion-button [routerLink]="['/modal']" routerLinkActive="router-link-active">modal</ion-button> 
+
+</ion-content>
+
+
